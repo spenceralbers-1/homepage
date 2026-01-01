@@ -10,6 +10,14 @@ Open `index.html` directly, or run a static server:
 python3 -m http.server 8080
 ```
 
+## Live reload (local)
+
+For auto-refresh on save:
+
+```sh
+node dev-server.cjs
+```
+
 ## Deploy on Cloudflare Pages
 
 1. Create a Cloudflare account: https://dash.cloudflare.com/
