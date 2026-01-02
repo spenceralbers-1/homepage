@@ -34,16 +34,12 @@ body {
   background: var(--bg-gradient);
   color: var(--ink);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 56px 32px 64px;
-  width: 100%;
-  flex: 1 0 auto;
+  padding: 56px 32px 96px;
 }
 
 .top {
@@ -194,29 +190,6 @@ body {
   margin: 0;
 }
 
-.footer {
-  border-top: 1px solid var(--line);
-  padding: 24px 32px 32px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-}
-
-.footer__label {
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-}
-
-.footer__value {
-  color: var(--ink);
-}
-
 .top,
 .intro,
 .block {
@@ -254,12 +227,5 @@ body {
 
   .top {
     padding-bottom: 24px;
-  }
-
-  .footer {
-    padding: 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
   }
 }
