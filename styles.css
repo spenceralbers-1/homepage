@@ -30,7 +30,7 @@
 
 body {
   margin: 0;
-  font-family: 'Sora', 'Helvetica Neue', sans-serif;
+  font-family: 'Sora', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   background: var(--bg-gradient);
   color: var(--ink);
   min-height: 100vh;
@@ -215,21 +215,6 @@ body {
 
 .footer__value {
   color: var(--ink);
-}
-
-.top,
-.intro,
-.block {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.is-ready .top,
-.is-ready .intro,
-.is-ready .block {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 @media (max-width: 900px) {
